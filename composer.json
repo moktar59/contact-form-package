@@ -1,0 +1,24 @@
+{
+    "name": "matrivumiit/contact",
+    "description": "It is a simple contact form to send email to admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moktar Ali",
+            "email": "im.moktar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Matrivumiit\\Contact\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

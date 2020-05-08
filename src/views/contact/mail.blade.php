@@ -3,7 +3,7 @@
 
 
 There is a new query from {{ $name }}.
-Message: {{ $message }}
+Message body: {{ $message }}
 
 @component('mail::button', ['url' => ''])
 Button Text
